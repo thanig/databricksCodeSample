@@ -31,3 +31,22 @@ val bulkCopyConfig = Config(Map(
 spark.table("testbulk").bulkCopyToSqlDB(bulkCopyConfig)
 # df.bulkCopyToSqlDB(bulkCopyConfig, bulkCopyMetadata) if metadata is specified 
 # df.bulkCopyToSqlDB(bulkCopyConfig) if no metadata is specified.
+
+
+
+#Print lists in Python (4 Different Ways)
+#Printing a list in python can be done is following ways:
+
+#Using for loop : Traverse from 0 to len(list) and print all elements of the list one by one uisng a for loop, this is the standard practice of doing it.
+#filter_none
+#edit
+#play_arrow
+
+#brightness_4
+# Python program to print list 
+# using for loop 
+a = [1, 2, 3, 4, 5] 
+  
+# printing the list using loop 
+for x in range(len(a)): 
+    print a[x], 
